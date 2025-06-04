@@ -1,0 +1,25 @@
+{
+  "defaultAgent": "Lyra",
+  "agents": {
+    "Lyra": {
+      "description": "Voice-enhanced assistant for reasoning and synthesis",
+      "voice": "lyra_voice",
+      "endpoint": "/api/lyra"
+    },
+    "Kara": {
+      "description": "Finance and logic coordinator, CFO duties",
+      "voice": "kara_voice",
+      "endpoint": "/api/kara"
+    },
+    "Sophia": {
+      "description": "Semantic and logic gatekeeper",
+      "voice": "sophia_voice",
+      "endpoint": "/api/sophia"
+    },
+    "Cecilia": {
+      "description": "Document AI and visual annotation manager",
+      "voice": "cecilia_voice",
+      "endpoint": "/api/cecilia"
+    }
+  }
+}

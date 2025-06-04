@@ -1,0 +1,7 @@
+{
+  "OPENAI_API_KEY": "your-openai-key-here",
+  "DEFAULT_AGENT": "Lyra",
+  "LM_ENDPOINT": "http://localhost:11434",
+  "ENABLE_TERMINAL": "true",
+  "PROJECT_MODE": "codex-lab-dev"
+}
