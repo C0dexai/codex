@@ -1,0 +1,22 @@
+{
+  "name": "codexlab",
+  "version": "1.0.0",
+  "description": "CodexLab - Full-stack development environment",
+  "private": true,
+  "scripts": {
+    "install": "npm run install:frontend && npm run install:backend",
+    "install:frontend": "cd frontend && npm install",
+    "install:backend": "cd backend && npm install",
+    "dev": "npm run dev:frontend",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "start": "npm run start:backend",
+    "start:frontend": "cd frontend && npm run preview",
+    "start:backend": "cd backend && npm start",
+    "build": "cd frontend && npm run build",
+    "setup": "./setup.sh"
+  },
+  "keywords": ["codexlab", "fullstack", "react", "express"],
+  "author": "",
+  "license": "ISC"
+}
